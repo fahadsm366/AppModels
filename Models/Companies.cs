@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Models
 {
-    internal class Companies
+    public class Companies
     {
         public Guid Company_Id { get; set; }
         public string ComReg { get; set; }

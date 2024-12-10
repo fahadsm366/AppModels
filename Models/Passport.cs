@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Models
 {
-    internal class Passport
+    public class Passport
     {
         public Guid ID { get; set; } = Guid.NewGuid();
 

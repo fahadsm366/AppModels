@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Models.Enums
 {
-    internal enum Residence_Status
+    public enum Residence_Status
     {
         none = 0,
         Valid = 1,

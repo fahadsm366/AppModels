@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Models.Enums
 {
-    internal enum UserPermissions
+    public enum UserPermissions
     {
         none = 0,
         Owner = 1,

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Models
 {
-    internal class Company_Owner
+    public class Company_Owner
     {
     }
 }

@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Models
 {
-    internal class Residencise
+    public class Residencies
     {
 
         public Guid ID { get; set; }  = Guid.NewGuid();

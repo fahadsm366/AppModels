@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace Models
 {
-    public class National_Identity
+    public class Company_Location
     {
+
     }
 }

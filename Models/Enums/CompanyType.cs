@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Models.Enums
 {
-    internal enum CompanyType
+    public enum CompanyType
     {
         none = 0,
         LocalCompanyOneOwner = 1,

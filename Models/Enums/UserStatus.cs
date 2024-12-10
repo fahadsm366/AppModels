@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Models.Enums
 {
-    internal enum UserStatus
+    public enum UserStatus
     {
         none = 0,
         Pending = 1,
