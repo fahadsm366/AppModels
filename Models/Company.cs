@@ -9,7 +9,7 @@ using Microsoft.AspNetCore.Mvc.ModelBinding.Validation;
 
 namespace Models
 {
-    public class Companies
+    public class Company
     {
         public Guid Company_Id { get; set; }
 
@@ -39,6 +39,8 @@ namespace Models
         public string CR_Master { get; set; }
         [DisplayName("CR Note")]
         public string CR_Note { get; set; }
+        public Company_Location Company_Location { get; set; }
+        public Guid Company_ID { get; set; }
         [DisplayName("CR File Path")]
         public string? FilePath { get; set; }
         [ValidateNever]

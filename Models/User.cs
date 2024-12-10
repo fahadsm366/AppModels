@@ -1,8 +1,8 @@
 ﻿namespace Models
 {
-    public class Users
+    public class User
     {
         public string Company_Id { get; set; } = string.Empty;
-        public Companies Companies { get; set; }
+        public Company Companies { get; set; }
     }
 }

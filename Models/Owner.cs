@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Models
 {
-    public class Owners
+    public class Owner
     {
         public Guid Id { get; set; } = Guid.NewGuid();
         public string Nationality { get; set; }
@@ -17,10 +17,10 @@ namespace Models
         public int MyProperty { get; set; }
 
 
-        public Residencies Residencies { get; set; }
+        public Residence Residencies { get; set; }
         public string ResidenciesID { get; set; }
 
-        public Residencies Passport { get; set; }
+        public Residence Passport { get; set; }
         public string PassportID { get; set; }
     }
 }

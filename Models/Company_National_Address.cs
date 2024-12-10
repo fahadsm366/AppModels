@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Models
 {
-    public class National_Address
+    public class Company_National_Address
     {
         public string Id { get; set; } = string.Empty;
     }
