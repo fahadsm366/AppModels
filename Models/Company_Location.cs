@@ -8,6 +8,14 @@ namespace Models
 {
     public class Company_Location
     {
+        public string Name { get; set; } = string.Empty;
+        public string Description { get; set; } = string.Empty;
+        public string State { get; set; } = string.Empty;
+        public string City { get; set; } = string.Empty;
+        public string Area { get; set; } = string.Empty;
+        public string Street { get; set; } = string.Empty;
+        public National_Address National_Address { get; set; }
+        public string National_Address_Id { get; set; } = string.Empty;
 
     }
 }
