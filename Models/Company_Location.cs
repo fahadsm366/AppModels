@@ -15,7 +15,9 @@ namespace Models
         public string Area { get; set; } = string.Empty;
         public string Street { get; set; } = string.Empty;
         public National_Address National_Address { get; set; }
-        public string National_Address_Id { get; set; } = string.Empty;
+        public string? National_Address_Id { get; set; } = string.Empty;
+        public Lease_Contracts Lease_Contracts { get; set; }
+        public string? Lease_Contracts_Contract_Number { get; set; } = string.Empty;
 
     }
 }

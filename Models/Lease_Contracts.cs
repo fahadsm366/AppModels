@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace Models
 {
-    public class User_Company
+    public class Lease_Contracts
     {
+        public string Contract_Number { get; set; }
     }
 }
