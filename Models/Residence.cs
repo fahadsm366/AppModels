@@ -10,7 +10,7 @@ namespace Models
     public class Residence
     {
 
-        public Guid ID { get; set; }  = Guid.NewGuid();
-        public string RsID { get; set; }  = string.Empty;
+        public string RequestID { get; set; } = Guid.NewGuid().ToString();
+        public string ID { get; set; }  = string.Empty;
     }
 }

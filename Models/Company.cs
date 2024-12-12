@@ -11,7 +11,7 @@ namespace Models
 {
     public class Company
     {
-        public Guid Company_Id { get; set; }
+        public string Company_Id { get; set; } = Guid.NewGuid().ToString();
 
         [Key, DisplayName("CR Number"), MaxLength(450)]
         public string CR_Number { get; set; }
@@ -40,7 +40,7 @@ namespace Models
         [DisplayName("CR Note")]
         public string CR_Note { get; set; }
         public Company_Location Company_Location { get; set; }
-        public Guid Company_ID { get; set; }
+        public string Company_ID { get; set; }
         [DisplayName("CR File Path")]
         public string? FilePath { get; set; }
         [ValidateNever]

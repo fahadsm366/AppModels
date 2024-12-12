@@ -9,10 +9,8 @@ namespace Models
 {
     public class Passport
     {
-        public Guid ID { get; set; } = Guid.NewGuid();
-
-        [MaxLength(10)]
-        public string PassID { get; set; } = string.Empty;
+        public string RequestID { get; set; } = Guid.NewGuid().ToString();
+        public string ID { get; set; } = string.Empty;
         public DateTime ReleaseDate { get; set; }
         public DateTime ExpiryDate { get; set; }
         public int MyProperty { get; set; }
