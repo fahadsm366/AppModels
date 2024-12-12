@@ -10,6 +10,8 @@ namespace Models.Enums
     {
         none = 0,
         residence = 1,
-        Visa = 2,
+        premium_residence = 2,
+        Vist_Visa = 3,
+        Work_Visa = 4,
     }
 }

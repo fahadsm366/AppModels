@@ -11,7 +11,7 @@ namespace Models
 {
     public class Company
     {
-        public string Company_Id { get; set; } = Guid.NewGuid().ToString();
+        public string RequestId { get; set; } = Guid.NewGuid().ToString();
 
         [Key, DisplayName("CR Number"), MaxLength(450)]
         public string CR_Number { get; set; }
